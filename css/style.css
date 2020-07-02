@@ -1,0 +1,72 @@
+
+body {
+  background: #f4f4f4;
+}
+
+.custom-header {
+  background: #ED6464 !important;
+  color: #fff !important;
+  border-color: #ED6464 !important;
+}
+
+.navbar {
+    background: #ED6464 !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    transition: color 0.2s ease !important;
+}
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-item.active .nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+#header {
+    background: #333;
+    color: #fff;
+}
+
+.breadcrumb {
+    background: #ccc;
+}
+.breadcrumb a {
+    color: #333;
+}
+
+.progress-section h4 {
+    font-size: 1.25rem;
+}
+
+.card-inner {
+  background: rgb(240, 240, 240);
+}
+.card-inner i.fas {
+  font-size: 1.75rem;
+}
+
+.table td {
+  vertical-align: middle !important;
+}
+
+#footer {
+  height: 6rem;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .table td {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #header small {
+    display: block;
+  }
+}
