@@ -59,14 +59,16 @@ body {
 
 
 
-@media screen and (max-width: 400px) {
-  .table td {
-    padding: 0 !important;
-  }
-}
+
 
 @media screen and (max-width: 500px) {
   #header small {
     display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .table td {
+    padding: 0 !important;
   }
 }
